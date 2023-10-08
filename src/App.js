@@ -14,7 +14,7 @@ export const useMapTools = function () {
     loading: true
   })
 
-  const geoUrl = "https://raw.githubusercontent.com/oliviamtallent/ClimateAndDroughts/master/src/data/tx_counties.geojson";
+  const geoUrl = "https://raw.githubusercontent.com/oliviamtallent/Impact-Of-Droughts/main/src/data/tx_counties.geojson";
 
   // fetch map once
   useEffect(() => {

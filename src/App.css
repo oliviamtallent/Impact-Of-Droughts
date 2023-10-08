@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  background-color: #96C4D8;
+  position: absolute;
+  top: 0;bottom: 0;right: 0;left: 0;
+}
+
+h2 {
+  color: #0D2D49;
+  margin-top: 8px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #0D2D49;
+}
+
+h3 {
+  color: #0D2D49;
+}
+
+p {
+  color: #0D2D49;
+}
+
+.info-bg {
+  height: 270px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border-width: 2px;
+  border: solid #2F506D;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 125px;
+  margin-right: 60px;
+  justify-content: center;
+}
+
+.playBtn {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.map-canvas {
+  background-color: #fff;
+  border-radius: 50px;
+  border-width: 2px;
+  border: solid #2F506D;
+  margin-bottom: 10px;
+}
+
+.tabText {
+  position: absolute;
+  transform:  translateY(-50%) translateX(-50%) rotate(90deg);
+  color: #2F506D;
+  font-weight: bold;
+  left: 50%;
+  top: 35%;
+}
+
+.tab {
+  height: 120px;
+  width: 32px;
+  position: relative;
+  transition: 1s;
+  background-color: #FFFFFF;
+  border-width: 2px;
+  border: solid #2F506D;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 2px;
+  padding-right: 7px;
+  color: #2F506D;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  border-width: 2px;
+  border: solid #000000;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.circleText {
+  margin-top: 7px;
+  font-size: 13px;
+}

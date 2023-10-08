@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### 'npm update'
+### `npm update`
 ### `npm start`
 
 Reintalls the node modules then runs the app in the development mode.\

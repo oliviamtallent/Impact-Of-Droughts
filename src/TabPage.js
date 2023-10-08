@@ -7,8 +7,7 @@ function TabPage(props) {
             height: 570, 
             backgroundColor: '#FFFFFF', 
             position: 'absolute', 
-            paddingRight: '20px',
-            left: -527, 
+            left: -507, 
             top: props.top, 
             borderWidth: '2px',
             border: 'solid #2F506D',}}>

@@ -92,3 +92,83 @@ p {
   margin-top: 7px;
   font-size: 13px;
 }
+
+.img-style {
+  border-radius: 15px;
+  width: 15%;
+  float: left;
+  margin-left: 2.5%;
+}
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.intro-text {
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.link {
+  -webkit-transition: color 0.65s ease-out;
+  -moz-transition: color 0.65s ease-out;
+  -o-transition: color 0.65s ease-out;
+  -ms-transition: color 0.65s ease-out;
+  transition: color 0.65s ease-out;
+  color: #0D2D49 !important;
+  text-shadow: 0.5cm;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.link:hover {
+  -webkit-transition: color 0.65s ease-out;
+  -moz-transition: color 0.65s ease-out;
+  -o-transition: color 0.65s ease-out;
+  -ms-transition: color   0.65s ease-out;
+  transition: color 0.65s ease-out;
+  color:  #2F506D !important;
+  font-weight: bold;
+}
+
+.two-title {
+  text-align: center;
+  color: #cae00f !important;
+  font-size: 3em;
+}
+
+.steps {
+  margin-left: 2%;
+}
+
+.picture {
+  float: right;
+  margin-right: 5%;
+  width: 55%;
+}
+
+.navbar-brand {
+  font-family: "Titan One", sans-serif;
+  font-size: 1.5rem !important;
+  color: #34374C !important;
+}
+
+.nav-item {
+  font-family: "Didact Gothic", cursive;
+  font-size: 1.25rem !important;
+  color: #606470;
+}
+
+.navbar {
+  background: transparent;
+  border-radius: 1%/20%;
+  margin: 0.5% 0.5% 0 0.5%;
+  backdrop-filter: blur(3px);
+  position: fixed !important;
+  top: 0;
+  z-index: 1030;
+  width: -webkit-fill-available;
+}
+
+.active {
+  color: #2C2E3E !important;
+}

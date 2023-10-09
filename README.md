@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### View Running Project
-[impact-of-droughts-five.vercel.app](impact-of-droughts-five.vercel.app)
+[https://impact-of-droughts-five.vercel.app](https://impact-of-droughts-five.vercel.app)
 
 ## Available Scripts
 

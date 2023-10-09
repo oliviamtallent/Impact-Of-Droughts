@@ -2,11 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### View Running Project
+[impact-of-droughts-five.vercel.app](impact-of-droughts-five.vercel.app)
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm update`
 ### `npm start`
 
 Reintalls the node modules then runs the app in the development mode.\

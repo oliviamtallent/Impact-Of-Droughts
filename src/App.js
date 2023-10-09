@@ -32,7 +32,7 @@ export const useMapTools = function () {
   return { mapData };
 }
 
-export const fetchData = function () {
+const fetchData = () => {
   const [droughtData, setDroughtData] = useState({
     data: {},
     loading: true
@@ -59,7 +59,7 @@ export const fetchData = function () {
   return {droughtData}
 }
 
-export const fetchTempData = function () {
+const fetchTempData = () => {
   const [tempData, setTempData] = useState({
     data: {},
     loading: true

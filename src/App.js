@@ -32,7 +32,7 @@ export const useMapTools = function () {
   return { mapData };
 }
 
-const fetchData = () => {
+const FetchData = () => {
   const [droughtData, setDroughtData] = useState({
     data: {},
     loading: true
@@ -59,7 +59,7 @@ const fetchData = () => {
   return {droughtData}
 }
 
-const fetchTempData = () => {
+const FetchTempData = () => {
   const [tempData, setTempData] = useState({
     data: {},
     loading: true
@@ -157,8 +157,8 @@ export const setMapProjection = function mapData(mapData) {
 
 function App() {
   const { mapData } = useMapTools();
-  const { droughtData } = fetchData();
-  const { tempData } = fetchTempData();
+  const { droughtData } = FetchData();
+  const { tempData } = FetchTempData();
 
   const [date, setDate] = useState(null);
   const [avgTemp, setAvgTemp] = useState(null);
